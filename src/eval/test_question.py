@@ -51,7 +51,7 @@ def history_chat(messages):
 test_data = []
 all_data = []
 with open(f"{test_path}", "r", encoding="utf-8") as file:
-    all_data.load(file)
+    all_data = json.load(file)
 # print(data)
 data_len = len(all_data)  # len(all_data)
 random.shuffle(all_data)
