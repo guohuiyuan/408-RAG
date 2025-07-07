@@ -208,3 +208,5 @@ __marimo__/
 *.pdf
 *.docx
 output/
+*.bin
+data/images

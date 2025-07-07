@@ -100,7 +100,7 @@ def combine_qa_from_json(source_dir, output_file):
 if __name__ == "__main__":
     source_directory = "data/docx_data"
     output_directory = "output/processed_data"
-    combined_output_file = "data/test_data/computer-408-exam-questions-400.json"
+    combined_output_file = "data/test_data/computer_408_exam_questions_400.json"
     
     process_docx_to_json(source_directory, output_directory)
     combine_qa_from_json(output_directory, combined_output_file)
