@@ -7,7 +7,8 @@
             "C": "数据输入",
             "D": "数据输出"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "2. 哪个是冯·诺依曼体系结构的特征之一？",
@@ -17,7 +18,8 @@
             "C": "数据与指令分开存放",
             "D": "不支持算术运算"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "3. 计算机的哪个部件是信息处理的中心？",
@@ -27,7 +29,8 @@
             "C": "硬盘",
             "D": "内存"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "4. 计算机存储体系中的“缓存”具有什么特点？",
@@ -37,7 +40,8 @@
             "C": "容量大，速度快",
             "D": "容量小，速度慢"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "5. 在计算机术语中，ALU代表什么？",
@@ -47,7 +51,8 @@
             "C": "高级逻辑单元",
             "D": "辅助逻辑单元"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "6. 主存储器与辅助存储器的区别主要在于？",
@@ -57,7 +62,8 @@
             "C": "存取速度",
             "D": "物理材料"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "7. 计算机执行程序的基本过程中不包括下列哪个步骤？",
@@ -67,7 +73,8 @@
             "C": "执行",
             "D": "存储"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "8. 哪种类型的计算机内存用于暂时存储执行中的程序和数据？",
@@ -77,7 +84,8 @@
             "C": "EEPROM",
             "D": "硬盘"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "9. BIOS在计算机中的作用是什么？",
@@ -87,7 +95,8 @@
             "C": "进行系统引导和硬件初始化",
             "D": "提供图形用户界面"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "11. 计算机硬件系统不包括下列哪个部件？",
@@ -97,7 +106,8 @@
             "C": "操作系统",
             "D": "输入设备"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "12. 微程序控制器中的微指令存储在哪里？",
@@ -107,7 +117,8 @@
             "C": "寄存器",
             "D": "外部存储器"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "13. 哪个单位是计算机速度的衡量标准？",
@@ -117,7 +128,8 @@
             "C": "Hertz",
             "D": "Ampere"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "14. 在计算机术语中，CPU的主频指的是什么？",
@@ -127,7 +139,8 @@
             "C": "CPU内部振荡器的频率",
             "D": "CPU能处理的数据量"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "15. 下列哪项不是操作系统的功能？",
@@ -137,7 +150,8 @@
             "C": "网络控制",
             "D": "指令执行"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "16. 计算机执行指令的过程中，指令寄存器的作用是什么？",
@@ -147,7 +161,8 @@
             "C": "存储指令地址",
             "D": "存储数据"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "17. 总线在计算机中主要用来做什么？",
@@ -157,7 +172,8 @@
             "C": "处理数据",
             "D": "输出数据"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "18. 并行传输与串行传输相比，具有什么优势？",
@@ -167,7 +183,8 @@
             "C": "传输速度快",
             "D": "成本低"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "19. 寄存器与缓存的主要区别是什么？",
@@ -177,17 +194,18 @@
             "C": "使用位置",
             "D": "物理结构"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "20. 位、字节、千字节(KB)和兆字节(MB)的大小关系正确的是？",
         "options": {
-            "A": "1字节 < 1位 < 1KB < 1MB",
-            "B": "1位 < 1字节 < 1KB < 1MB",
-            "C": "1MB < 1KB < 1字节 < 1位",
-            "D": "1位 < 1MB < 1KB < 1字节"
+            "A": "1字节 < 1位 < 1K",
+            "B": "< 1字节",
+            "D": "1位 < 1M"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "21. 在CPU中，用于临时存储操作数和运算结果的是哪个部件？",
@@ -197,7 +215,8 @@
             "C": "硬盘",
             "D": "主存"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "22. 流水线技术在CPU中的作用是什么？",
@@ -207,7 +226,8 @@
             "C": "提高指令执行速度",
             "D": "增加执行指令的数量"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "23. 超标量架构的CPU能够做到什么？",
@@ -217,7 +237,8 @@
             "C": "只使用一个执行单元",
             "D": "减少数据的处理速度"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "24. 动态分支预测是用来解决什么问题？",
@@ -227,7 +248,8 @@
             "C": "结构冲突",
             "D": "指令冲突"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "25. 现代CPU中，乱序执行的主要目的是什么？",
@@ -237,7 +259,8 @@
             "C": "提高指令的执行速度",
             "D": "减少热能产生"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "26. 在多核处理器中，核心可以共享哪些资源？",
@@ -247,7 +270,8 @@
             "C": "缓存",
             "D": "执行单元"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "27. 分支预测缓冲（Branch Prediction Buffer）用于？",
@@ -257,7 +281,8 @@
             "C": "保存异常状态",
             "D": "缓存数据指令"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "28. SIMD指令集设计主要用于处理哪类问题？",
@@ -267,7 +292,8 @@
             "C": "高精度计算",
             "D": "文本处理"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "29. 哪种类型的缓存缺失称为“容量缺失”？",
@@ -277,7 +303,8 @@
             "C": "程序启动时的缺失",
             "D": "由于硬件故障引起的缺失"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "30. 在计算机架构中，乱序执行技术是如何提高CPU性能的？",
@@ -287,7 +314,8 @@
             "C": "通过提前执行分支指令",
             "D": "通过消除所有的数据冲突"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "31. 在现代微处理器中，哪个部件负责指令调度？",
@@ -297,7 +325,8 @@
             "C": "算术逻辑单元",
             "D": "指令调度单元"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "32. 在计算机术语中，“超线程”技术指的是什么？",
@@ -307,7 +336,8 @@
             "C": "在单个CPU核心上模拟多个处理器",
             "D": "允许CPU在多个线程间快速切换"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "33. 异常处理在CPU中通常用于处理什么？",
@@ -317,7 +347,8 @@
             "C": "程序执行错误",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "34. 分支目标缓冲器（BTB）的主要功能是什么？",
@@ -327,7 +358,8 @@
             "C": "缓存数据来加快处理速度",
             "D": "存储中断向量"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "35. 哪种类型的寄存器用于保存中断处理程序的地址？",
@@ -337,7 +369,8 @@
             "C": "状态寄存器",
             "D": "程序计数器"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "36. 协处理器在计算机系统中的作用是什么？",
@@ -347,7 +380,8 @@
             "C": "提供额外的存储",
             "D": "控制输入输出设备"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "37. 多级流水线的引入是为了解决什么问题？",
@@ -357,7 +391,8 @@
             "C": "指令吞吐率",
             "D": "处理器过热"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "38. 在处理器中，哪个部件负责执行算术和逻辑操作？",
@@ -367,7 +402,8 @@
             "C": "算术逻辑单元",
             "D": "输入输出单元"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "39. 为了提高指令执行效率，现代处理器普遍采用了哪种技术？",
@@ -377,7 +413,8 @@
             "C": "乱序执行",
             "D": "批处理"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "40. CPU的指令周期通常包括哪些阶段？",
@@ -387,17 +424,18 @@
             "C": "加载、执行、存储",
             "D": "译码、执行、检查、回写"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "41. 在计算机存储体系中，哪一层提供最快的存取速度？",
         "options": {
             "A": "硬盘",
-            "B": "SSD",
-            "C": "主存",
+            "B": "SS",
             "D": "寄存器"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "42. RAID技术主要用于什么目的？",
@@ -407,7 +445,8 @@
             "C": "提供动态IP配置",
             "D": "管理用户权限"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "43. EEPROM与普通ROM的主要区别是什么？",
@@ -417,7 +456,8 @@
             "C": "EEPROM的存储速度更快",
             "D": "EEPROM主要用于缓存"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "44. 动态随机访问存储器(DRAM)与静态随机访问存储器(SRAM)的主要区别在于：",
@@ -427,7 +467,8 @@
             "C": "SRAM速度更快，但成本更高",
             "D": "DRAM容量更大"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "45. 哪种类型的闪存被广泛用于USB闪存驱动器和固态硬盘中？",
@@ -437,7 +478,8 @@
             "C": "DDR闪存",
             "D": "SIMM闪存"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "46. 虚拟内存技术使用的是哪种存储技术？",
@@ -447,7 +489,8 @@
             "C": "同时使用RAM和硬盘",
             "D": "使用缓存"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "47. 哪个术语描述了硬盘驱动器的性能，即磁头定位到数据扇区所需的平均时间？",
@@ -457,17 +500,18 @@
             "C": "寻道时间",
             "D": "缓存大小"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "49. 在计算机系统中，哪一项技术可以加速硬盘的数据访问速度？",
         "options": {
             "A": "增加更多的内存",
-            "B": "使用SSD",
-            "C": "磁盘碎片整理",
+            "B": "使用SS",
             "D": "提高网络速度"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "50. 为什么现代计算机系统使用分级存储体系？",
@@ -477,7 +521,8 @@
             "C": "为了平衡成本与性能",
             "D": "为了提高处理速度"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "51. 在存储技术中，非易失性存储器指的是什么？",
@@ -487,7 +532,8 @@
             "C": "数据可以随机访问",
             "D": "只能顺序访问数据"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "52. 硬盘的存储数据是通过哪种方式实现的？",
@@ -497,7 +543,8 @@
             "C": "电子记录",
             "D": "机械记录"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "53. 在存储系统中，“冷数据”是指什么？",
@@ -507,17 +554,17 @@
             "C": "很少访问的数据",
             "D": "出错的数据"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "54. 哪种存储技术最适合实现大容量且成本低廉的数据备份？",
         "options": {
-            "A": "SSD",
-            "B": "HDD",
-            "C": "RAM",
+            "A": "SS",
             "D": "ROM"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "55. SSD的主要优势相对于传统硬盘是什么？",
@@ -527,7 +574,8 @@
             "C": "无噪音，访问速度快",
             "D": "数据更安全"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "56. 容错性在计算机存储中的重要性体现在哪里？",
@@ -537,7 +585,8 @@
             "C": "增加存储容量",
             "D": "减少能耗"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "57. 什么是存储系统中的“热备份”？",
@@ -547,17 +596,19 @@
             "C": "数据在需要时才备份",
             "D": "使用加热技术保护存储设备"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "58. 哪种硬盘接口类型提供了最快的数据传输速度？",
         "options": {
-            "A": "IDE",
-            "B": "SATA",
+            "A": "ID",
+            "E": "B. SATA",
             "C": "SCSI",
             "D": "NVMe"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "59. 主存与辅助存储的关系是怎样的？",
@@ -567,7 +618,8 @@
             "C": "主存用于存储程序，辅助存储用于执行程序",
             "D": "辅助存储是主存的备份"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "60. 计算机系统中，存储容量的增加通常带来什么后果？",
@@ -577,7 +629,8 @@
             "C": "系统能耗增加",
             "D": "费用提高"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "61. 在计算机系统中，哪个部件负责管理外围设备的操作？",
@@ -587,7 +640,8 @@
             "C": "输入输出控制器",
             "D": "系统总线"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "62. DMA（Direct Memory Access）的主要作用是什么？",
@@ -597,7 +651,8 @@
             "C": "增加CPU的处理速度",
             "D": "控制数据在内存和寄存器间的传输"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "63. 中断系统的主要目的是什么？",
@@ -607,7 +662,8 @@
             "C": "允许操作系统停止执行程序",
             "D": "处理计算机硬件故障"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "64. 在计算机架构中，轮询技术用于什么目的？",
@@ -617,7 +673,8 @@
             "C": "检测系统内存的错误",
             "D": "优化网络通信"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "65. 哪种类型的打印机使用激光技术来产生文本和图像？",
@@ -627,7 +684,8 @@
             "C": "激光打印机",
             "D": "热敏打印机"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "66. USB接口的主要优点之一是什么？",
@@ -637,7 +695,8 @@
             "C": "支持即插即用和热插拔",
             "D": "仅适用于视频设备"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "67. SCSI接口主要用在哪种设备上？",
@@ -647,7 +706,8 @@
             "C": "显示器",
             "D": "打印机"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "68. 串行传输和并行传输的主要区别是什么？",
@@ -657,17 +717,19 @@
             "C": "并行传输距离更远",
             "D": "串行传输不需要同步"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "69. 哪种类型的接口提供了最高的数据传输速率？",
         "options": {
-            "A": "USB 2.0",
+            "A": "US",
             "B": "FireWire",
             "C": "Ethernet",
             "D": "Thunderbolt"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "70. 计算机输入设备的例子包括以下哪项？",
@@ -677,7 +739,8 @@
             "C": "键盘",
             "D": "硬盘"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "71. 在计算机术语中，\"握手\"过程通常与哪个活动相关？",
@@ -687,7 +750,8 @@
             "C": "数据压缩",
             "D": "存储管理"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "72. 计算机系统中，哪种设备通常用于长期数据存储？",
@@ -697,7 +761,8 @@
             "C": "硬盘驱动器",
             "D": "寄存器"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "73. 哪种技术可以实现多个操作系统同时在一台计算机上运行？",
@@ -707,7 +772,8 @@
             "C": "超线程",
             "D": "流水线"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "74. 音频输出设备的例子是什么？",
@@ -717,27 +783,27 @@
             "C": "键盘",
             "D": "鼠标"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "75. 在计算机系统中，副存储设备不包括以下哪项？",
         "options": {
-            "A": "SSD",
-            "B": "DVD",
-            "C": "CPU",
+            "A": "SS",
             "D": "闪存驱动器"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "76. 哪种端口最常用于将计算机连接到互联网？",
         "options": {
             "A": "HDMI",
-            "B": "USB",
-            "C": "Ethernet",
+            "B": "C. Ethernet",
             "D": "VGA"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "77. 图形处理单元（GPU）的主要作用是什么？",
@@ -747,7 +813,8 @@
             "C": "控制输入设备",
             "D": "管理文件存储"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "78. 在I/O系统中，\"缓冲\"的作用是什么？",
@@ -757,7 +824,8 @@
             "C": "临时存储数据以平衡速度差异",
             "D": "保护数据不被未授权访问"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "79. 哪一项技术用于改善硬盘驱动器的性能？",
@@ -767,7 +835,8 @@
             "C": "减少磁盘碎片",
             "D": "扩大缓存大小"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "80. 在现代计算机中，操作系统通常通过什么机制管理外部设备？",
@@ -777,7 +846,8 @@
             "C": "直接存储访问",
             "D": "并行计算"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "81. 超线程技术能够实现什么性能优势？",
@@ -787,7 +857,8 @@
             "C": "直接增加CPU核心数",
             "D": "减少能源消耗"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "82. 缓存一致性协议是用于解决什么问题？",
@@ -797,7 +868,8 @@
             "C": "SSD数据同步",
             "D": "网络数据同步"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "83. 分支预测错误对CPU性能有什么影响？",
@@ -807,7 +879,8 @@
             "C": "增加指令执行时间",
             "D": "提高能效"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "84. 在多处理器系统中，哪种技术被用于处理器间直接传输数据？",
@@ -817,7 +890,8 @@
             "C": "网络",
             "D": "共享内存"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "85. 能够提高数据中心服务器能效的技术是什么？",
@@ -827,7 +901,8 @@
             "C": "使用更大内存",
             "D": "扩展存储容量"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "86. 计算机性能衡量的常用指标不包括以下哪一项？",
@@ -837,7 +912,8 @@
             "C": "Hz",
             "D": "dB"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "87. 哪种编译技术可以在编译时期提高程序性能？",
@@ -847,7 +923,8 @@
             "C": "优化编译",
             "D": "手动编译"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "88. 哪项技术可以在不改变硬件的情况下，通过软件优化来提高处理器性能？",
@@ -857,7 +934,8 @@
             "C": "升级CPU",
             "D": "扩展硬盘空间"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "89. 为了减少缓存缺失，可以采用哪种策略？",
@@ -867,7 +945,8 @@
             "C": "随机替换策略",
             "D": "缩小总线宽度"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "90. 在计算机系统中，提高I/O设备和CPU之间数据传输效率的方法是？",
@@ -877,7 +956,8 @@
             "C": "使用DMA",
             "D": "使用更大的硬盘"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "91. 何种情况下会使用多线程处理？",
@@ -887,7 +967,8 @@
             "C": "当需要降低系统能耗时",
             "D": "当只执行单一任务时"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "92. 在微处理器中，什么技术允许单个核心执行多条指令流？",
@@ -897,7 +978,8 @@
             "C": "多级缓存",
             "D": "静态分支预测"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "93. 哪个性能指标是衡量服务器处理能力的好方法？",
@@ -907,7 +989,8 @@
             "C": "每秒浮点运算次数",
             "D": "内存大小"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "94. 在数据库服务器中，哪项技术通常用来提高查询效率？",
@@ -917,7 +1000,8 @@
             "C": "使用更快的网络连接",
             "D": "降低安全级别"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "95. 为什么现代计算机系统使用分级内存体系？",
@@ -927,7 +1011,8 @@
             "C": "为了平衡成本与性能",
             "D": "为了增加网络带宽"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "96. 动态电源管理技术主要用于解决什么问题？",
@@ -937,7 +1022,8 @@
             "C": "节能降耗",
             "D": "网络安全"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "97. 在集群计算中，节点间同步的主要挑战是什么？",
@@ -947,7 +1033,8 @@
             "C": "网络带宽",
             "D": "软件兼容性"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "98. 使用GPU加速的计算主要优点是什么？",
@@ -957,7 +1044,8 @@
             "C": "增加内存容量",
             "D": "提高并行处理能力"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "99. 在设计高性能计算系统时，哪个因素是至关重要的？",
@@ -967,7 +1055,8 @@
             "C": "大容量硬盘存储",
             "D": "低成本网络解决方案"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "100. 如何通过软件来优化多核处理器的性能？",
@@ -977,7 +1066,8 @@
             "C": "降低操作系统优先级",
             "D": "增加单个核心的时钟频率"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机组成原理"
     },
     {
         "question": "1. 在计算机网络中，OSI模型的第三层是什么？",
@@ -987,7 +1077,8 @@
             "C": "数据链路层",
             "D": "会话层"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "2. TCP/IP协议栈中不包括哪一层？",
@@ -997,7 +1088,8 @@
             "C": "传输层",
             "D": "网络接口层"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "3. 哪种类型的网络最适合小范围内的个人设备间通信？",
@@ -1007,7 +1099,8 @@
             "C": "PAN",
             "D": "MAN"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "4. 网络中的哪一项技术可以动态分配IP地址？",
@@ -1017,7 +1110,8 @@
             "C": "SMTP",
             "D": "FTP"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "5. 在数据通信中，用于错误检测的机制是？",
@@ -1027,7 +1121,8 @@
             "C": "重传机制",
             "D": "校验和"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "6. 以太网使用的是哪种数据链路层设备？",
@@ -1037,7 +1132,8 @@
             "C": "集线器",
             "D": "网桥"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "7. 哪种通信模式支持双向交流，但在任一时刻只允许一个方向的数据传输？",
@@ -1047,7 +1143,8 @@
             "C": "全双工",
             "D": "多工"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "8. IPv4地址由几位组成？",
@@ -1057,7 +1154,8 @@
             "C": "128位",
             "D": "256位"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "9. 什么是子网掩码的主要作用？",
@@ -1067,7 +1165,8 @@
             "C": "过滤数据包",
             "D": "路由选择"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "10. 哪种协议是无连接的？",
@@ -1077,7 +1176,8 @@
             "C": "FTP",
             "D": "HTTP"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "11. 在网络中实施QoS（服务质量）的主要目的是什么？",
@@ -1087,7 +1187,8 @@
             "C": "管理数据包的优先级",
             "D": "防止网络拥堵"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "12. 无线网络的标准IEEE 802.11是指？",
@@ -1097,7 +1198,8 @@
             "C": "Wi-Fi",
             "D": "Zigbee"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "13. 在OSI模型中，哪一层负责建立、管理和终止会话？",
@@ -1107,7 +1209,8 @@
             "C": "表示层",
             "D": "应用层"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "14. 哪种设备用于将两个不同网络连接在一起？",
@@ -1117,7 +1220,8 @@
             "C": "集线器",
             "D": "重复器"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "15. 路由器工作在OSI模型的哪一层？",
@@ -1127,7 +1231,8 @@
             "C": "网络层",
             "D": "传输层"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "16. 在OSI模型中，加密和解密过程发生在哪一层？",
@@ -1137,7 +1242,8 @@
             "C": "会话层",
             "D": "传输层"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "17. SMTP协议用于？",
@@ -1147,7 +1253,8 @@
             "C": "电子邮件传输",
             "D": "实时聊天"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "18. 什么是MPLS的全称？",
@@ -1157,7 +1264,8 @@
             "C": "Multi-Protocol Layer Switch",
             "D": "Multi-Performance Link Switching"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "19. NAT的主要作用是什么？",
@@ -1167,7 +1275,8 @@
             "C": "提供网络安全",
             "D": "过滤数据包"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "20. 哪个协议负责网络中的路径选择？",
@@ -1177,7 +1286,8 @@
             "C": "BGP",
             "D": "ARP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "21. 在OSI模型中，哪一层负责数据包的转发和路由？",
@@ -1187,7 +1297,8 @@
             "C": "传输层",
             "D": "会话层"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "22. IPv6地址的长度是多少位？",
@@ -1197,7 +1308,8 @@
             "C": "128位",
             "D": "256位"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "23. ICMP协议主要用于什么目的？",
@@ -1207,7 +1319,8 @@
             "C": "建立连接",
             "D": "传输层控制"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "24. 什么是路由表的主要作用？",
@@ -1217,7 +1330,8 @@
             "C": "管理IP地址",
             "D": "存储路径信息"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "25. OSPF是一种什么类型的路由协议？",
@@ -1227,7 +1341,8 @@
             "C": "路径矢量路由协议",
             "D": "静态路由协议"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "26. 哪种技术允许多个网络协议在同一个网络上并存？",
@@ -1237,7 +1352,8 @@
             "C": "SNMP",
             "D": "VPN"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "27. IP分片的主要目的是什么？",
@@ -1247,7 +1363,8 @@
             "C": "适应不同网络的MTU",
             "D": "加密数据"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "28. ARP协议的作用是什么？",
@@ -1257,7 +1374,8 @@
             "C": "提供动态IP地址",
             "D": "监视网络流量"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "29. 在IPv4中，一个IP地址分类中，类C的网络可以容纳多少台计算机？",
@@ -1267,7 +1385,8 @@
             "C": "65534台",
             "D": "65536台"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "30. 哪个术语描述了在单一网络上的设备共享同一个公有IP地址的技术？",
@@ -1277,7 +1396,8 @@
             "C": "NAT",
             "D": "路由选择"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "31. 网络层使用哪种地址来标识终端设备？",
@@ -1287,7 +1407,8 @@
             "C": "IP地址",
             "D": "逻辑地址"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "32. VLAN是用于什么目的？",
@@ -1297,7 +1418,8 @@
             "C": "增加带宽",
             "D": "管理MAC地址"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "33. 什么是CIDR的全称？",
@@ -1307,7 +1429,8 @@
             "C": "Classful Internet Domain Routing",
             "D": "Classless Intra-Domain Routing"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "34. MTU在网络术语中代表什么？",
@@ -1317,7 +1440,8 @@
             "C": "Maximum Transfer Unit",
             "D": "Media Transfer Unit"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "35. 为什么会发生IP地址冲突？",
@@ -1327,7 +1451,8 @@
             "C": "一个设备使用了两个网络",
             "D": "网络设备过多"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "36. IPv4与IPv6的一个主要区别是什么？",
@@ -1337,7 +1462,8 @@
             "C": "IPv6不支持自动配置",
             "D": "IPv4速度更快"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "37. L3交换机与路由器的区别主要在于什么？",
@@ -1347,7 +1473,8 @@
             "C": "功能",
             "D": "价格"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "38. BGP协议主要用于？",
@@ -1357,7 +1484,8 @@
             "C": "基础网关协议",
             "D": "宽带网关协议"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "39. 子网划分的主要目的是什么？",
@@ -1367,7 +1495,8 @@
             "C": "简化网络管理",
             "D": "增强网络安全"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "40. 无类域间路由选择(CIDR)的引入主要是为了解决什么问题？",
@@ -1377,7 +1506,8 @@
             "C": "地址耗尽",
             "D": "网络延迟"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "41. TCP协议保证数据传输的可靠性通过哪些机制？",
@@ -1387,7 +1517,8 @@
             "C": "数据校验",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "42. UDP协议的特点是什么？",
@@ -1397,7 +1528,8 @@
             "C": "可靠传输",
             "D": "复杂的头部信息"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "43. TCP头部包含哪项数据用于确保数据顺序正确？",
@@ -1407,7 +1539,8 @@
             "C": "校验和",
             "D": "窗口大小"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "44. 传输层的主要功能不包括？",
@@ -1417,7 +1550,8 @@
             "C": "提供逻辑通信",
             "D": "错误检测"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "45. 在TCP/IP模型中，传输层提供的服务不包括哪一项？",
@@ -1427,7 +1561,8 @@
             "C": "数据加密",
             "D": "流量控制"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "46. TCP和UDP都使用端口号来标识什么？",
@@ -1437,7 +1572,8 @@
             "C": "协议",
             "D": "IP地址"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "47. TCP的三次握手过程第一步是什么？",
@@ -1447,7 +1583,8 @@
             "C": "客户端发送SYN",
             "D": "服务端发送SYN"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "48. 哪种协议为应用层提供了会话层功能？",
@@ -1457,7 +1594,8 @@
             "C": "TCP",
             "D": "IP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "49. TCP连接的终止使用的是哪种机制？",
@@ -1467,7 +1605,8 @@
             "C": "四次挥手",
             "D": "一次挥手"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "50. UDP适用于哪类应用？",
@@ -1477,7 +1616,8 @@
             "C": "大文件传输",
             "D": "高安全性要求的传输"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "51. TCP的拥塞控制机制包括？",
@@ -1487,7 +1627,8 @@
             "C": "快速重传",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "52. 什么是TCP的窗口缩放选项？",
@@ -1497,7 +1638,8 @@
             "C": "扩大接收窗口的能力",
             "D": "减小缓冲区大小"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "53. 在TCP连接中，如果收到三个重复的ACK，会触发什么？",
@@ -1507,7 +1649,8 @@
             "C": "快速恢复",
             "D": "快速重传"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "54. 如何描述TCP的流量控制？",
@@ -1517,7 +1660,8 @@
             "C": "降低网络的拥塞程度",
             "D": "阻止数据发送"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "55. TCP的哪个特性可以动态调整其窗口大小？",
@@ -1527,7 +1671,8 @@
             "C": "流量控制",
             "D": "路由选择"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "56. 传输层安全协议TLS主要提供什么服务？",
@@ -1537,7 +1682,8 @@
             "C": "数据完整性",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "57. 传输层的哪个协议使用报文确认机制？",
@@ -1547,7 +1693,8 @@
             "C": "TCP",
             "D": "UDP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "58. 传输层协议哪个是面向连接的？",
@@ -1557,7 +1704,8 @@
             "C": "ARP",
             "D": "ICMP"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "59. 哪种技术用于在不同网络应用程序之间传递消息？",
@@ -1567,7 +1715,8 @@
             "C": "实时传输协议",
             "D": "用户数据报协议"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "60. TCP的序列号是用来做什么的？",
@@ -1577,7 +1726,8 @@
             "C": "恢复丢失的数据包",
             "D": "重建数据传输顺序"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "61. HTTP协议定义了什么？",
@@ -1587,7 +1737,8 @@
             "C": "邮件传输",
             "D": "文件传输协议"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "62. FTP协议用于？",
@@ -1597,7 +1748,8 @@
             "C": "网络管理",
             "D": "Web浏览"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "63. DNS服务的主要功能是什么？",
@@ -1607,7 +1759,8 @@
             "C": "提供加密服务",
             "D": "压缩数据"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "64. SMTP协议主要用于什么目的？",
@@ -1617,7 +1770,8 @@
             "C": "电子邮件的发送",
             "D": "Web页面的请求和传输"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "66. 哪个协议被用来自动配置网络设备的IP地址？",
@@ -1627,7 +1781,8 @@
             "C": "DNS",
             "D": "ICMP"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "67. 在电子邮件系统中，POP3协议用于？",
@@ -1637,7 +1792,8 @@
             "C": "过滤邮件",
             "D": "加密邮件"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "68. HTTPS协议如何保证传输的安全？",
@@ -1647,7 +1803,8 @@
             "C": "使用应用层过滤机制",
             "D": "通过身份验证和MAC地址过滤"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "69. 哪种协议主要用于网络管理？",
@@ -1657,7 +1814,8 @@
             "C": "SIP",
             "D": "SSH"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "70. 简单邮件传输协议SMTP不能做什么？",
@@ -1667,7 +1825,8 @@
             "C": "接收电子邮件",
             "D": "加密电子邮件"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "71. 在VoIP中使用哪个协议来控制音视频的启动、停止和管理？",
@@ -1677,7 +1836,8 @@
             "C": "SIP",
             "D": "SCTP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "72. 哪个应用层协议用于文件传输并支持安全传输？",
@@ -1687,7 +1847,8 @@
             "C": "SFTP",
             "D": "SMTP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "73. DNS查询中，使用UDP协议的原因是什么？",
@@ -1697,7 +1858,8 @@
             "C": "它提供错误校验",
             "D": "它支持大数据传输"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "74. 什么是Web服务器最常用的端口号？",
@@ -1707,7 +1869,8 @@
             "C": "80",
             "D": "443"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "75. IMAP协议与POP3协议相比的优势在于？",
@@ -1717,7 +1880,8 @@
             "C": "允许在服务器上管理邮件",
             "D": "更安全"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "76. 哪个协议负责将域名解析为IP地址？",
@@ -1727,7 +1891,8 @@
             "C": "DNS",
             "D": "HTTP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "77. Telnet协议的用途是什么？",
@@ -1737,7 +1902,8 @@
             "C": "网页浏览",
             "D": "邮件发送"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "78. 对于实时视频会议推荐使用哪种传输协议？",
@@ -1747,7 +1913,8 @@
             "C": "HTTP",
             "D": "FTP"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "79. 哪个协议常用于在互联网上安全地访问另一台计算机？",
@@ -1757,7 +1924,8 @@
             "C": "SSH",
             "D": "FTP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "80. 那个协议允许电子邮件客户端从服务器下载邮件同时仍保留服务器上的副本？",
@@ -1767,7 +1935,8 @@
             "C": "IMAP",
             "D": "FTP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "81. 防火墙在网络安全中的作用是什么？",
@@ -1777,7 +1946,8 @@
             "C": "存储数据",
             "D": "优化网络性能"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "82. VPN是如何提供安全通信的？",
@@ -1787,7 +1957,8 @@
             "C": "通过防火墙保护",
             "D": "通过隐藏网络地址"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "83. 哪种类型的攻击试图使网络服务不可用，致使用户无法访问网络资源？",
@@ -1797,7 +1968,8 @@
             "C": "拒绝服务攻击",
             "D": "钓鱼攻击"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "84. SSL和TLS主要用于什么目的？",
@@ -1807,7 +1979,8 @@
             "C": "用户认证",
             "D": "网络路由"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "85. 在网络安全中，加密的主要目的是什么？",
@@ -1817,7 +1990,8 @@
             "C": "保护数据不被未授权访问",
             "D": "增加系统可用性"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "86. 什么是数字签名？",
@@ -1827,7 +2001,8 @@
             "C": "一种数据压缩技术",
             "D": "一种网络监控工具"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "87. 公钥基础设施(PKI)是用来做什么的？",
@@ -1837,7 +2012,8 @@
             "C": "网络布线",
             "D": "网络性能优化"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "88. 哪个安全协议用于在Web浏览器和服务器之间安全传输数据？",
@@ -1847,7 +2023,8 @@
             "C": "SFTP",
             "D": "SMTP"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "89. 哪种攻击涉及攻击者在两个通信实体之间秘密地转发或操纵数据？",
@@ -1857,7 +2034,8 @@
             "C": "XSS攻击",
             "D": "DOS攻击"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "90. 用于网络中认证用户的协议是？",
@@ -1867,7 +2045,8 @@
             "C": "RADIUS",
             "D": "SNMP"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "91. MAC地址过滤是一种什么类型的安全措施？",
@@ -1876,7 +2055,8 @@
             "B": "物理安全",
             "C": "网络访问控制"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "92. 网络入侵检测系统(IDS)的功能是什么？",
@@ -1886,7 +2066,8 @@
             "C": "数据备份",
             "D": "网络速度测试"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "93. 哪种技术可以用来隐藏内部网络的IP地址？",
@@ -1896,7 +2077,8 @@
             "C": "NAT",
             "D": "VPN"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "94. 网络中的蜜罐是什么？",
@@ -1906,7 +2088,8 @@
             "C": "一种用于吸引攻击者的陷阱",
             "D": "一种高速网络协议"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "95. 使用哪种协议可以安全地远程访问另一台计算机？",
@@ -1916,7 +2099,8 @@
             "C": "FTP",
             "D": "SSH"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "计算机网络"
     },
     {
         "question": "96. 数据包嗅探可能导致什么类型的安全问题？",
@@ -1926,7 +2110,8 @@
             "C": "硬件损坏",
             "D": "软件过期"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "计算机网络"
     },
     {
         "question": "97. WPA2是用于什么目的？",
@@ -1936,7 +2121,8 @@
             "C": "邮件加密",
             "D": "文件加密"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "98. 哪种病毒能够自我复制并在网络中传播？",
@@ -1946,7 +2132,8 @@
             "C": "间谍软件",
             "D": "广告软件"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "99. 在网络安全中，最常见的威胁之一是什么？",
@@ -1956,7 +2143,8 @@
             "C": "软件升级",
             "D": "物理损害"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "计算机网络"
     },
     {
         "question": "100. 完整性、可用性和保密性是哪个领域的核心原则？",
@@ -1966,7 +2154,8 @@
             "C": "网络安全",
             "D": "网络部署"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "计算机网络"
     },
     {
         "question": "1. 在数据结构中，线性表不包括哪种类型？",
@@ -1976,7 +2165,8 @@
             "C": "栈",
             "D": "二叉树"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "2. 数据结构中，用于表示存储数据元素之间逻辑关系的是？",
@@ -1986,7 +2176,8 @@
             "C": "数据项",
             "D": "数据类型"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "3. 哪种搜索技术在未排序的列表中效率最高？",
@@ -1996,7 +2187,8 @@
             "C": "哈希表",
             "D": "插值搜索"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "4. 下列关于栈的操作中，错误的是？",
@@ -2006,7 +2198,8 @@
             "C": "先进先出",
             "D": "只能在一端操作"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "5. 队列的基本操作不包括？",
@@ -2016,7 +2209,8 @@
             "C": "取前端元素",
             "D": "取最小元素"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "6. 数据结构的主要研究内容不包括？",
@@ -2026,7 +2220,8 @@
             "C": "数据操作的算法",
             "D": "数据的加密方法"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "7. 链表和数组的主要区别是什么？",
@@ -2036,7 +2231,8 @@
             "C": "链表不能进行二分搜索，而数组可以",
             "D": "数组不能扩展大小，而链表可以"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "8. 动态数组的主要优点是？",
@@ -2046,7 +2242,8 @@
             "C": "可以动态增加和减少元素",
             "D": "更好的时间局部性"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "9. 哈希表解决冲突的方法不包括？",
@@ -2056,7 +2253,8 @@
             "C": "平方探测法",
             "D": "分配新的哈希表"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "10. 哪种数据结构允许以O(1)时间复杂度进行插入和删除？",
@@ -2066,7 +2264,8 @@
             "C": "队列",
             "D": "双向链表"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "11. 图的表示法不包括？",
@@ -2076,7 +2275,8 @@
             "C": "逆邻接表",
             "D": "交叉链表"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "12. 完全二叉树中，第i个节点的左子节点的位置是？",
@@ -2086,7 +2286,8 @@
             "C": "i/2",
             "D": "2i - 1"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "13. 在二叉树中，若某节点有右子树，那么其后继节点是？",
@@ -2096,7 +2297,8 @@
             "C": "左子树中的最左节点",
             "D": "左子树中的最右节点"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "14. 下列哪种算法不是内部排序算法？",
@@ -2106,7 +2308,8 @@
             "C": "归并排序",
             "D": "基数排序"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "15. 哈希表的负载因子定义为？",
@@ -2116,7 +2319,8 @@
             "C": "哈希表中空位置的数目",
             "D": "哈希表的最大链长"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "16. 算法复杂度中的最好情况是指？",
@@ -2126,7 +2330,8 @@
             "C": "算法在处理最少数据量时的性能",
             "D": "算法在最坏情况下的性能"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "17. 如果一棵树的任意节点最多有两个子节点，这样的树称为？",
@@ -2136,7 +2341,8 @@
             "C": "平衡树",
             "D": "稀疏树"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "18. 深度优先搜索通常用什么数据结构实现？",
@@ -2146,7 +2352,8 @@
             "C": "链表",
             "D": "二叉树"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "19. 广度优先搜索通常用什么数据结构实现？",
@@ -2156,7 +2363,8 @@
             "C": "链表",
             "D": "二叉树"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "20. AVL树是哪种类型的二叉树？",
@@ -2166,7 +2374,8 @@
             "C": "平衡二叉树",
             "D": "斜树"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "21. 对于队列而言，删除操作通常发生在哪一端？",
@@ -2176,7 +2385,8 @@
             "C": "任意端",
             "D": "中间"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "22. 线性表的连续存储是指什么？",
@@ -2186,7 +2396,8 @@
             "C": "数组",
             "D": "队列"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "23. 下列哪个不是栈的可能操作？",
@@ -2196,7 +2407,8 @@
             "C": "peek",
             "D": "insert"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "24. 循环链表的特点是什么？",
@@ -2206,7 +2418,8 @@
             "C": "每个节点只有一个指针",
             "D": "节点可以自我引用"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "25. 双端队列与普通队列的区别在于？",
@@ -2216,7 +2429,8 @@
             "C": "只能在一端删除",
             "D": "不允许插入操作"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "26. 动态数组与静态数组的主要区别是什么？",
@@ -2226,7 +2440,8 @@
             "C": "动态数组不能使用循环",
             "D": "静态数组可以存储对象"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "27. 线性表不支持哪种类型的访问？",
@@ -2236,7 +2451,8 @@
             "C": "指针访问",
             "D": "直接访问"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "28. 下面哪个操作是双向链表的优势？",
@@ -2246,7 +2462,8 @@
             "C": "在任意位置快速插入和删除",
             "D": "自动管理内存"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "29. 在队列数据结构中，FIFO 表示什么？",
@@ -2256,7 +2473,8 @@
             "C": "Fast In Fast Out",
             "D": "Final In Final Out"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "30. 链表中添加一个节点的时间复杂度是多少？",
@@ -2266,7 +2484,8 @@
             "C": "O(log n)",
             "D": "O(n log n)"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "32. 要反转单链表中的链接，你需要改变什么？",
@@ -2276,7 +2495,8 @@
             "C": "链表的大小",
             "D": "链表的头指针"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "33. 栈的典型应用包括哪项？",
@@ -2286,7 +2506,8 @@
             "C": "路径跟踪",
             "D": "前缀表达式计算"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "34. 使用数组实现的数据结构中，扩容通常涉及哪些步骤？",
@@ -2296,7 +2517,8 @@
             "C": "更新容量",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "35. 在一个没有头节点的单链表中，删除头节点需要多少时间？",
@@ -2306,7 +2528,8 @@
             "C": "O(log n)",
             "D": "O(n^2)"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "36. 双向循环链表中删除一个节点的平均时间复杂度是多少？",
@@ -2316,7 +2539,8 @@
             "C": "O(log n)",
             "D": "O(n log n)"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "37. 对于空链表，以下哪个操作是非法的？",
@@ -2326,7 +2550,8 @@
             "C": "访问第一个节点",
             "D": "检查是否为空"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "38. 如果数组的索引从0开始，那么父节点i的左子节点在数组中的位置是？",
@@ -2336,7 +2561,8 @@
             "C": "(i - 1) / 2",
             "D": "2i"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "39. 下面哪种方法可以用来在未排序的数组中查找最大元素？",
@@ -2346,7 +2572,8 @@
             "C": "选择排序",
             "D": "插入排序"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "40. 如何描述一个线性结构？",
@@ -2356,7 +2583,8 @@
             "C": "数据元素之间存在一对多的关系",
             "D": "数据元素之间没有任何关系"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "41. 二叉搜索树的中序遍历结果是什么类型的？",
@@ -2366,7 +2594,8 @@
             "C": "递减排序",
             "D": "随机"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "42. 在完全二叉树中，第 i个节点的父节点的索引是？",
@@ -2376,7 +2605,8 @@
             "C": "2i+1",
             "D": "i-1"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "43. 下列关于红黑树的描述，哪一项是错误的？",
@@ -2386,7 +2616,8 @@
             "C": "红色节点不能有红色的子节点",
             "D": "所有路径都有相同数目的黑色节点"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "44. AVL树通过什么方式保证树的平衡？",
@@ -2396,7 +2627,8 @@
             "C": "重排节点",
             "D": "增加虚拟节点"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "45. 堆数据结构主要用于实现哪种算法？",
@@ -2406,7 +2638,8 @@
             "C": "排序算法",
             "D": "贪心算法"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "46. 在二叉树的每个节点中添加一个指向其父节点的链接会影响哪种树的性质？",
@@ -2416,7 +2649,8 @@
             "C": "二叉搜索树",
             "D": "没有影响"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "47. 如果一个节点在二叉树中有右孩子，则其后继是？",
@@ -2426,7 +2660,8 @@
             "C": "其右孩子的最右节点",
             "D": "其左孩子"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "48. 在一个满二叉树中，如果有 n个叶节点，那么该树共有多少个节点？",
@@ -2436,7 +2671,8 @@
             "C": "n-1",
             "D": "n/2"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "49. 在二叉树的不同表示法中，用于表示空链接的特殊标记是？",
@@ -2446,7 +2682,8 @@
             "C": "0",
             "D": "#"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "50. 在删除操作中，为了保持二叉搜索树的属性，应选择哪个节点作为替换？",
@@ -2456,7 +2693,8 @@
             "C": "任意叶子节点",
             "D": "树的最左节点"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "51. n个结点的完全二叉树的高度是？",
@@ -2466,7 +2704,8 @@
             "C": "log2(n+1)",
             "D": "log2(n+1)-1"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "52. 哪种类型的树适用于数据库索引使用？",
@@ -2476,7 +2715,8 @@
             "C": "B-树",
             "D": "二叉搜索树"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "53. 含有 n 个节点的二叉搜索树的最坏情况高度是多少？",
@@ -2486,7 +2726,8 @@
             "C": "sqrt(n)",
             "D": "log2n"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "54. 哪种树结构保证了在插入和删除操作后平衡性和排序属性？",
@@ -2496,7 +2737,8 @@
             "C": "AVL树",
             "D": "普通树"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "55. 二叉树可以用哪种方法存储？",
@@ -2506,7 +2748,8 @@
             "C": "索引存储",
             "D": "A和B"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "56. 以下哪个不是二叉树的遍历算法？",
@@ -2516,7 +2759,8 @@
             "C": "中序遍历",
             "D": "对称遍历"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "57. B+树与B树的主要区别在于？",
@@ -2526,7 +2770,8 @@
             "C": "B+树不允许数据重复",
             "D": "B树的高度更高"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "58. 如何描述红黑树？",
@@ -2536,7 +2781,8 @@
             "C": "每条从根到叶的路径上黑色节点数相同",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "59. 在AVL树中插入一个节点后可能需要进行的操作是？",
@@ -2546,7 +2792,8 @@
             "C": "删除节点",
             "D": "重新着色"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "60. 对于一个非空二叉树，如果其叶子节点数为 l，度为2的节点数为 d，则满足什么关系？",
@@ -2556,7 +2803,8 @@
             "C": "l = 2d",
             "D": "l = d/2"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "61. 在图中，顶点之间的连接关系称为？",
@@ -2566,7 +2814,8 @@
             "C": "环",
             "D": "权重"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "62. 图的哪种遍历方式需要使用队列来实现？",
@@ -2576,7 +2825,8 @@
             "C": "优先级搜索",
             "D": "递归遍历"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "63. 在无向图中，两个顶点直接相连的边的数目称为这两个顶点的？",
@@ -2586,7 +2836,8 @@
             "C": "权重",
             "D": "连通度"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "64. 哪种图不能包含环？",
@@ -2596,7 +2847,8 @@
             "C": "有向无环图 (DAG)",
             "D": "完全图"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "65. 在图的表示方法中，使用矩阵存储图的方法称为？",
@@ -2606,7 +2858,8 @@
             "C": "边列表",
             "D": "顶点矩阵"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "66. 哪种搜索算法不能用于带权图中找到最短路径？",
@@ -2616,7 +2869,8 @@
             "C": "深度优先搜索",
             "D": "A*搜索算法"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "67. 如果一个图是连通的并且是无环的，它被称为？",
@@ -2626,7 +2880,8 @@
             "C": "稀疏图",
             "D": "网格图"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "68. 在有向图中，一个顶点的出度是指？",
@@ -2636,7 +2891,8 @@
             "C": "与该顶点相连的边的总数",
             "D": "该顶点的环的数量"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "69. 哪种算法可以检测图中是否存在环？",
@@ -2646,7 +2902,8 @@
             "C": "Tarjan算法",
             "D": "Floyd-Warshall算法"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "70. 一个图的最小生成树是指？",
@@ -2656,7 +2913,8 @@
             "C": "包含最少边的树",
             "D": "包含最少顶点的树"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "71. 图的哪种遍历方法适合用栈来实现？",
@@ -2666,7 +2924,8 @@
             "C": "优先级搜索",
             "D": "状态空间搜索"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "72. 在图的表示中，使用链表存储图的方法称为？",
@@ -2676,7 +2935,8 @@
             "C": "边列表",
             "D": "顶点列表"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "73. 完全图是指？",
@@ -2686,7 +2946,8 @@
             "C": "一个连通的图",
             "D": "一个有向的图"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "74. 在有向图中，如果任意两个顶点间都存在从一个到另一个的路径，则该图是？",
@@ -2696,7 +2957,8 @@
             "C": "弱连通的",
             "D": "独立的"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "75. 无向图的两个顶点之间可能存在多条边，这样的图称为？",
@@ -2706,7 +2968,8 @@
             "C": "完全图",
             "D": "子图"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "76. 欧拉路径是指？",
@@ -2716,7 +2979,8 @@
             "C": "经过每条边至少一次的路径",
             "D": "经过每个顶点至少一次的路径"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "77. 图的密度是指？",
@@ -2726,7 +2990,8 @@
             "C": "最大顶点度与顶点数的比",
             "D": "顶点数与边数的平方的比"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "78. 顶点覆盖问题是指？",
@@ -2736,7 +3001,8 @@
             "C": "找到包含所有顶点的最小路径",
             "D": "找到包含所有边的最小路径"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "79. 若一个图的任意两个顶点之间都至少存在两条简单路径，则该图至少包含一个？",
@@ -2746,7 +3012,8 @@
             "C": "路径",
             "D": "连通分量"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "80. 在图中增加一个顶点通常影响的是？",
@@ -2756,7 +3023,8 @@
             "C": "图的中心",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "81. 哪种排序算法是不稳定的？",
@@ -2766,7 +3034,8 @@
             "C": "选择排序",
             "D": "归并排序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "82. 二分搜索算法要求操作的数据结构是？",
@@ -2776,7 +3045,8 @@
             "C": "栈",
             "D": "队列"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "83. 哪种排序算法的平均时间复杂度是 O(n log n)？",
@@ -2786,7 +3056,8 @@
             "C": "冒泡排序",
             "D": "选择排序"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "84. 线性搜索在什么情况下是最有效的？",
@@ -2796,7 +3067,8 @@
             "C": "数据完全有序",
             "D": "数据量很小"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "85. 最坏情况下，快速排序的时间复杂度是？",
@@ -2806,7 +3078,8 @@
             "C": "O(n^2)",
             "D": "O(n)"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "86. 堆排序中使用的主要数据结构是？",
@@ -2816,7 +3089,8 @@
             "C": "二叉堆",
             "D": "红黑树"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "87. 归并排序的主要缺点是什么？",
@@ -2826,7 +3100,8 @@
             "C": "不稳定",
             "D": "递归深度限制"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "88. 在一个未排序的数组中找到第 k 小的元素，哪种方法最有效？",
@@ -2836,7 +3111,8 @@
             "C": "快速选择",
             "D": "插入排序后选择"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "89. 插入排序的基本思想是？",
@@ -2846,7 +3122,8 @@
             "C": "创建一个空列表并不断插入元素",
             "D": "交换列表中的元素直到全部有序"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "90. 冒泡排序的时间复杂度是多少？",
@@ -2856,7 +3133,8 @@
             "C": "O(n^2)",
             "D": "O(log n)"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "91. 哪种算法适用于大数据集的外部排序？",
@@ -2866,7 +3144,8 @@
             "C": "归并排序",
             "D": "快速排序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "92. 以下哪个算法不是分治法的应用？",
@@ -2876,7 +3155,8 @@
             "C": "插入排序",
             "D": "堆排序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "93. 哪种排序算法在最好情况下的时间复杂度为 O(n)？",
@@ -2886,7 +3166,8 @@
             "C": "插入排序",
             "D": "堆排序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "94. 稳定的排序算法意味着什么？",
@@ -2896,7 +3177,8 @@
             "C": "排序无需额外空间",
             "D": "排序可以逆转"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "数据结构"
     },
     {
         "question": "95. 希尔排序的特点是？",
@@ -2906,7 +3188,8 @@
             "C": "先局部排序，再整体排序",
             "D": "是一种稳定排序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "96. 在最坏情况下，二分搜索的时间复杂度是？",
@@ -2916,7 +3199,8 @@
             "C": "O(n^2)",
             "D": "O(1)"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "97. 混合排序通常是指什么？",
@@ -2926,7 +3210,8 @@
             "C": "在不同情况下使用不同的排序算法",
             "D": "使用随机化技术来选择排序算法"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "数据结构"
     },
     {
         "question": "98. 如果一个问题的大小足够小，哪种排序算法最为有效？",
@@ -2936,7 +3221,8 @@
             "C": "插入排序",
             "D": "堆排序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "99. 哪种搜索方法在处理具有重复元素的大数据集时表现最好？",
@@ -2946,7 +3232,8 @@
             "C": "哈希表",
             "D": "顺序索引"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "数据结构"
     },
     {
         "question": "100. 在图搜索中使用优先级队列可以实现哪种算法？",
@@ -2956,7 +3243,8 @@
             "C": "最小生成树",
             "D": "最短路径算法"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "数据结构"
     },
     {
         "question": "1. 操作系统的基本功能不包括？",
@@ -2966,7 +3254,8 @@
             "C": "资源控制",
             "D": "用户接口"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "2. 哪个操作系统是为了使用图形用户界面而设计的？",
@@ -2976,7 +3265,8 @@
             "C": "Windows",
             "D": "Linux"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "3. 操作系统的哪个组成部分负责任务管理？",
@@ -2986,7 +3276,8 @@
             "C": "文件系统",
             "D": "设备驱动"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "4. 下面哪个不是操作系统的类型？",
@@ -2996,7 +3287,8 @@
             "C": "单用户系统",
             "D": "单任务系统"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "5. 早期计算机系统中，批处理系统的主要缺点是什么？",
@@ -3006,7 +3298,8 @@
             "C": "昂贵",
             "D": "用户交互差"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "6. 哪种操作系统支持一个以上的用户同时工作？",
@@ -3016,7 +3309,8 @@
             "C": "多用户系统",
             "D": "实时系统"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "7. 操作系统的核心是什么？",
@@ -3026,7 +3320,8 @@
             "C": "内核",
             "D": "应用程序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "8. 多任务操作系统能做什么？",
@@ -3036,7 +3331,8 @@
             "C": "一次只能执行一个任务",
             "D": "不支持图形用户界面"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "9. 以下哪项不是操作系统的职责？",
@@ -3046,7 +3342,8 @@
             "C": "硬件驱动安装",
             "D": "开发应用软件"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "10. 现代操作系统用于内存管理的技术是？",
@@ -3056,7 +3353,8 @@
             "C": "交换",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "11. 分时系统的主要特点是什么？",
@@ -3066,7 +3364,8 @@
             "C": "时间共享",
             "D": "资源共享"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "12. 哪一项不是现代操作系统应具备的特性？",
@@ -3076,7 +3375,8 @@
             "C": "应用程序",
             "D": "任务调度"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "13. 在操作系统中，内核态与用户态的区别主要在于？",
@@ -3086,7 +3386,8 @@
             "C": "速度差异",
             "D": "资源管理"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "14. 计算机启动时，首先启动的是什么？",
@@ -3096,7 +3397,8 @@
             "C": "引导加载程序",
             "D": "设备驱动"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "15. 哪种操作系统理论上性能最高？",
@@ -3106,7 +3408,8 @@
             "C": "分布式系统",
             "D": "集群系统"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "16. UNIX操作系统的主要特点是什么？",
@@ -3116,7 +3419,8 @@
             "C": "不支持网络",
             "D": "单用户系统"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "17. 什么是微内核设计？",
@@ -3126,7 +3430,8 @@
             "C": "将核心功能保持在最小",
             "D": "不使用任何内核"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "18. 哪种资源分配策略可能导致死锁？",
@@ -3136,7 +3441,8 @@
             "C": "循环等待",
             "D": "优先级分配"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "19. 进程和程序的主要区别是什么？",
@@ -3146,7 +3452,8 @@
             "C": "进程用于数据处理，程序不是",
             "D": "程序可以执行，进程不可以"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "20. 操作系统中断处理的主要目的是什么？",
@@ -3156,7 +3463,8 @@
             "C": "响应外部设备",
             "D": "增加系统功能"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "21. 进程之间的主要区别是它们各自独立的：",
@@ -3166,7 +3474,8 @@
             "C": "堆栈",
             "D": "寄存器和堆栈"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "22. 哪种调度算法会导致饥饿？",
@@ -3176,7 +3485,8 @@
             "C": "优先级调度",
             "D": "最短作业优先"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "23. 在进程状态转换图中，哪种状态不属于基本状态？",
@@ -3186,7 +3496,8 @@
             "C": "等待",
             "D": "挂起"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "24. 信号量的初始值设置为0表示什么？",
@@ -3196,7 +3507,8 @@
             "C": "没有可用资源",
             "D": "资源数未知"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "25. 进程的哪个部分在进程切换时不会被换出CPU？",
@@ -3206,7 +3518,8 @@
             "C": "用户栈",
             "D": "代码段"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "26. 死锁的四个必要条件不包括？",
@@ -3216,7 +3529,8 @@
             "C": "循环等待",
             "D": "多任务"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "27. 在操作系统中，下列哪一项是进程同步机制？",
@@ -3226,7 +3540,8 @@
             "C": "信号量",
             "D": "文件系统"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "28. 哪种类型的进程调度是指系统管理批量作业的顺序？",
@@ -3236,7 +3551,8 @@
             "C": "长作业优先",
             "D": "高响应比优先"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "29. 系统产生一个新进程的活动称为？",
@@ -3246,7 +3562,8 @@
             "C": "中断",
             "D": "终止"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "30. 在进程管理中，下面哪个是不可能的状态转换？",
@@ -3256,7 +3573,8 @@
             "C": "运行到等待",
             "D": "等待到执行"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "31. 哪种资源分配图可以用来检测死锁？",
@@ -3266,7 +3584,8 @@
             "C": "图",
             "D": "栈"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "32. 在进程通信中，消息传递系统主要用于？",
@@ -3276,7 +3595,8 @@
             "C": "所有进程间通信",
             "D": "仅内核进程间通信"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "33. 多线程是为了解决什么问题？",
@@ -3286,7 +3606,8 @@
             "C": "I/O操作延迟",
             "D": "存储空间不足"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "34. 当进程进入无限循环且不能继续向前执行时，此状态称为：",
@@ -3296,7 +3617,8 @@
             "C": "挂起",
             "D": "崩溃"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "35. 轮转调度算法的主要缺点是什么？",
@@ -3306,7 +3628,8 @@
             "C": "可能导致饥饿",
             "D": "时间片选择困难"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "36. 哪种同步机制适用于只有两个进程需要互斥执行？",
@@ -3316,7 +3639,8 @@
             "C": "互斥量",
             "D": "信号量"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "37. 生产者-消费者问题主要涉及的是：",
@@ -3326,7 +3650,8 @@
             "C": "数据通信",
             "D": "数据同步"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "38. 一个进程在执行期间请求并使用的某些资源称为：",
@@ -3336,7 +3661,8 @@
             "C": "打印机",
             "D": "分配资源"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "39. 在下列哪种情况下，进程会从运行状态变为就绪状态？",
@@ -3346,7 +3672,8 @@
             "C": "获得所需资源",
             "D": "进程终止"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "40. 在操作系统中实现进程间通信的机制不包括？",
@@ -3356,7 +3683,8 @@
             "C": "共享内存",
             "D": "中断"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "41. 哪一种内存分配策略容易产生外部碎片？",
@@ -3366,7 +3694,8 @@
             "C": "动态分区",
             "D": "固定分区"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "42. 虚拟内存是基于以下哪项技术？",
@@ -3376,7 +3705,8 @@
             "C": "分页和分段",
             "D": "外部碎片"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "44. 哪种页面替换算法使用了“未来信息”？",
@@ -3386,7 +3716,8 @@
             "C": "最优",
             "D": "第二次机会"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "45. 分页系统中，有效-无效位的作用是什么？",
@@ -3396,17 +3727,18 @@
             "C": "指示页面是否可以被执行",
             "D": "指示页面是否可用"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "46. 在分段存储管理中，段表的作用是什么？",
         "options": {
             "A": "跟踪每个段的长度",
-            "B": "跟踪每个段的物理地址",
-            "C": "A和B",
-            "D": "无"
+            "B": "D. 无",
+            "C": "A和"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "47. 下列关于分页和分段的说法正确的是？",
@@ -3416,7 +3748,8 @@
             "C": "分页和分段都不需要考虑碎片",
             "D": "分段需要考虑外部碎片"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "48. TLB（快表）的作用是什么？",
@@ -3426,17 +3759,18 @@
             "C": "加快CPU的处理速度",
             "D": "存储备份数据"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "49. 哪个不是虚拟内存使用的后备存储？",
         "options": {
             "A": "硬盘",
-            "B": "SSD",
-            "C": "RAM",
+            "B": "SS",
             "D": "光盘"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "50. 动态链接与静态链接的区别是什么？",
@@ -3446,7 +3780,8 @@
             "C": "动态链接节省空间",
             "D": "A和C"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "51. 常见的内存碎片类型不包括哪一项？",
@@ -3456,7 +3791,8 @@
             "C": "虚拟碎片",
             "D": "时间碎片"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "52. 哪一种算法用于动态内存分配请求？",
@@ -3466,7 +3802,8 @@
             "C": "首次适应算法",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "53. 内存压缩是为了解决什么问题？",
@@ -3476,7 +3813,8 @@
             "C": "解决外部碎片问题",
             "D": "提高磁盘I/O"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "54. 在分页内存管理中，页表用于？",
@@ -3486,7 +3824,8 @@
             "C": "转换虚拟地址到物理地址",
             "D": "管理空闲页列表"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "55. 交换（Swapping）技术在操作系统中用于？",
@@ -3496,7 +3835,8 @@
             "C": "交换网络数据包",
             "D": "交换用户数据"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "56. 关于多级页表的说法，正确的是？",
@@ -3506,7 +3846,8 @@
             "C": "只适用于32位系统",
             "D": "增加内存碎片"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "57. 非连续内存分配的主要好处是什么？",
@@ -3516,7 +3857,8 @@
             "C": "更快的执行速度",
             "D": "更少的内存需求"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "58. 操作系统中内存保护的主要目的是什么？",
@@ -3526,7 +3868,8 @@
             "C": "确保所有程序都能顺利运行",
             "D": "增加CPU效率"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "59. 哪种内存分配方法适合实时操作系统？",
@@ -3536,7 +3879,8 @@
             "C": "固定分区",
             "D": "动态分区"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "60. 在虚拟内存系统中，\"页错误\"是什么意思？",
@@ -3546,7 +3890,8 @@
             "C": "页面不在内存中",
             "D": "内存已满"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "61. 文件系统的主要功能不包括？",
@@ -3556,7 +3901,8 @@
             "C": "文件加密",
             "D": "文件删除"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "62. 在操作系统中，索引节点（inode）的作用是？",
@@ -3566,7 +3912,8 @@
             "C": "连接文件和目录",
             "D": "存储用户信息"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "64. 文件系统层次结构的最顶层通常是什么？",
@@ -3576,7 +3923,8 @@
             "C": "引导扇区",
             "D": "系统文件"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "65. 文件访问权限的修改在Unix系统中通过哪个命令实现？",
@@ -3586,7 +3934,8 @@
             "C": "ls",
             "D": "mkdir"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "66. 软链接与硬链接的主要区别是什么？",
@@ -3596,7 +3945,8 @@
             "C": "硬链接可以防止文件被删除，软链接不能",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "67. 文件系统的“碎片整理”是为了解决什么问题？",
@@ -3606,7 +3956,8 @@
             "C": "网络延迟",
             "D": "存储空间不足"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "68. 在文件系统中，目录的主要作用是什么？",
@@ -3616,7 +3967,8 @@
             "C": "加密文件",
             "D": "复制文件"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "69. 操作系统中，磁盘调度算法的目的是什么？",
@@ -3626,7 +3978,8 @@
             "C": "减少寻道时间",
             "D": "增加CPU使用率"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "70. 以下哪项不是文件系统应提供的基本操作？",
@@ -3636,7 +3989,8 @@
             "C": "文件压缩",
             "D": "文件删除"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "71. 哪种文件系统支持文件权限和安全策略？",
@@ -3646,7 +4000,8 @@
             "C": "exFAT",
             "D": "FAT16"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "72. 下面关于文件分配的说法，错误的是？",
@@ -3656,7 +4011,8 @@
             "C": "索引分配提供随机访问",
             "D": "连续分配最适合网络环境"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "73. 以下关于UNIX文件系统的说法正确的是？",
@@ -3666,7 +4022,8 @@
             "C": "支持多用户",
             "D": "不允许文件之间有链接"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "74. 在磁盘管理中，哪一项是为了保证数据完整性而进行的？",
@@ -3676,7 +4033,8 @@
             "C": "错误检测和修复",
             "D": "磁盘格式化"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "75. 文件保护机制不包括以下哪项？",
@@ -3686,7 +4044,8 @@
             "C": "网络防火墙",
             "D": "使用权限"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "76. 对于文件的哪种操作可能需要操作系统的用户认证？",
@@ -3696,7 +4055,8 @@
             "C": "创建",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "77. 磁盘碎片整理的主要优点是什么？",
@@ -3706,7 +4066,8 @@
             "C": "增加CPU效率",
             "D": "减少电力消耗"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "78. 在操作系统中，文件删除的过程不包括以下哪个步骤？",
@@ -3716,7 +4077,8 @@
             "C": "从用户界面中删除文件图标",
             "D": "清除CPU缓存"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "79. 文件分配的哪种方法可以提高磁盘的利用率？",
@@ -3726,7 +4088,8 @@
             "C": "连续分配",
             "D": "分散分配"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "80. 索引节点(inode)包含以下哪些信息？",
@@ -3736,7 +4099,8 @@
             "C": "文件大小",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "81. 在操作系统中，设备驱动程序的作用是什么？",
@@ -3746,7 +4110,8 @@
             "C": "保护设备不受病毒感染",
             "D": "管理网络连接"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "82. DMA是什么的缩写？",
@@ -3756,7 +4121,8 @@
             "C": "Disk Memory Allocation",
             "D": "Dynamic Memory Access"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "83. 中断处理程序的主要任务是什么？",
@@ -3766,7 +4132,8 @@
             "C": "处理来自硬件设备的信号",
             "D": "提供用户界面"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "84. 设备独立性在操作系统中意味着什么？",
@@ -3776,7 +4143,8 @@
             "C": "操作系统可以在不考虑具体设备的情况下管理设备",
             "D": "每个设备都有其专用的驱动程序"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "85. SCSI是什么的缩写？",
@@ -3786,7 +4154,8 @@
             "C": "Serial Computer System Integration",
             "D": "Simple Computer Software Interface"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "86. 打印机在打印过程中常见的瓶颈是什么？",
@@ -3796,7 +4165,8 @@
             "C": "内存大小",
             "D": "打印缓冲区"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "87. 在操作系统中，哪个部分负责硬件抽象？",
@@ -3806,7 +4176,8 @@
             "C": "应用程序",
             "D": "用户接口"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     },
     {
         "question": "88. 设备管理的目标不包括以下哪项？",
@@ -3816,7 +4187,8 @@
             "C": "提高设备效率",
             "D": "简化用户操作"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "89. 设备控制器的功能包括什么？",
@@ -3826,7 +4198,8 @@
             "C": "管理用户数据",
             "D": "控制网络流量"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "90. I/O端口映射主要用于什么？",
@@ -3836,17 +4209,20 @@
             "C": "控制设备与CPU的数据交换",
             "D": "管理操作系统的安装"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "91. 下列哪项不是串行通信协议？",
         "options": {
-            "A": "USB",
-            "B": "IEEE 1394",
+            "A": "US",
+            "B": "B. IEE",
+            "E": "1394",
             "C": "SATA",
             "D": "Ethernet"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "92. 在操作系统中，下列哪项技术可以提高硬盘的读写速度？",
@@ -3856,7 +4232,8 @@
             "C": "缓存",
             "D": "解压缩"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "93. 设备冲突通常是由什么原因引起的？",
@@ -3866,7 +4243,8 @@
             "C": "资源共享冲突",
             "D": "网络延迟"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "94. 对于外部设备来说，即插即用(PnP)技术意味着什么？",
@@ -3876,7 +4254,8 @@
             "C": "设备可以在不重启计算机的情况下连接和配置",
             "D": "设备可以在任何操作系统上运行"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "95. 轮询和中断驱动I/O的主要区别是什么？",
@@ -3886,7 +4265,8 @@
             "C": "轮询是设备主动的，中断是被动的",
             "D": "中断允许CPU执行其他任务直到I/O准备好"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "96. 哪种类型的设备通常使用DMA技术？",
@@ -3896,7 +4276,8 @@
             "C": "硬盘",
             "D": "鼠标"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "97. 以下哪一项不是优化存储设备性能的策略？",
@@ -3906,7 +4287,8 @@
             "C": "使用RAID技术",
             "D": "使用更快的网络连接"
         },
-        "answer": "B"
+        "answer": "B",
+        "subject_category": "操作系统"
     },
     {
         "question": "98. 设备驱动程序的更新主要是为了解决什么问题？",
@@ -3916,7 +4298,8 @@
             "C": "解决已知的安全问题",
             "D": "所有以上"
         },
-        "answer": "D"
+        "answer": "D",
+        "subject_category": "操作系统"
     },
     {
         "question": "99. USB设备的主要优点之一是什么？",
@@ -3926,7 +4309,8 @@
             "C": "广泛兼容性",
             "D": "高安全性"
         },
-        "answer": "C"
+        "answer": "C",
+        "subject_category": "操作系统"
     },
     {
         "question": "100. 磁盘调度算法中，什么是寻道时间？",
@@ -3936,6 +4320,7 @@
             "C": "磁盘启动并准备数据的时间",
             "D": "CPU处理I/O请求的时间"
         },
-        "answer": "A"
+        "answer": "A",
+        "subject_category": "操作系统"
     }
 ]
