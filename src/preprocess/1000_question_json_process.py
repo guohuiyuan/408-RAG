@@ -64,10 +64,10 @@ def process_sample_json(input_path, output_path):
 
         # Check for options (A:, B:, etc.)
         elif current_question and re.match(r"^[A-E][.．、]\s*", text):
-            opt_match = re.match(r"^([A-E])[.．、]\s*(.*)", text)
-            if opt_match:
-                opt_key = opt_match.group(1)
-                opt_val = opt_match.group(2).strip()
+            opt_matches = re.findall(r"([A-E])[.．、]\s*(.*?)(?=[A-E][.．、]|$)", text)
+            for opt_match in opt_matches:
+                opt_key = opt_match[0]  # 选项字母（A/B/C/D等）
+                opt_val = opt_match[1].strip()  # 选项内容
                 current_question["options"][opt_key] = opt_val
 
         # Check for answer (override table answer if present)
@@ -92,6 +92,6 @@ def process_sample_json(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_file = "data/pdf_data/408 1000题（答案册）_v3_content_list.json"
+    input_file = "data/408_1000/408 1000题（答案册）_v3_content_list.json"
     output_file = "data/test_data/computer_408_exam_questions_slice_1000.json"
     process_sample_json(input_file, output_file)
