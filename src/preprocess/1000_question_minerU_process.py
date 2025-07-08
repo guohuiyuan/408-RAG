@@ -93,5 +93,5 @@ def process_sample_json(input_path, output_path):
 
 if __name__ == "__main__":
     input_file = "data/408_1000/408 1000题（答案册）_v3_content_list.json"
-    output_file = "data/test_data/computer_408_exam_questions_slice_1000.json"
+    output_file = "data/test_data/computer_408_exam_questions_1000_minerU.json"
     process_sample_json(input_file, output_file)
