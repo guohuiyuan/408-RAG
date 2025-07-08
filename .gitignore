@@ -210,3 +210,4 @@ __marimo__/
 output/
 *.bin
 data/images
+data/pdf_data
