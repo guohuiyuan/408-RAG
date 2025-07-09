@@ -6,13 +6,15 @@ from vector_db import VectorDatabase
 # 加载环境变量
 _ = load_dotenv(find_dotenv())
 
+project_dir = os.path.dirname(os.path.abspath(__file__)).split('src')[0]
+
 class RAGSystem:
-    def __init__(self, persist_dir='../../data_base/vector_db/chroma'):
+    def __init__(self, persist_dir=os.path.join(project_dir,'data_base/vector_db/chroma')):
         self.document_processor = DocumentProcessor()
         self.vector_db = VectorDatabase(persist_directory=persist_dir)
         self.persist_dir = persist_dir
 
-    def build_knowledge_base(self, data_dir='../../data_base/knowledge_db'):
+    def build_knowledge_base(self, data_dir=os.path.join(project_dir,'data_base/knowledge_db')):
         """构建知识库"""
         # 获取所有文档路径
         file_paths = []
