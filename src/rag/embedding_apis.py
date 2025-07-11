@@ -1,10 +1,6 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv, find_dotenv
-import requests
-import json
-from sparkai.embedding.spark_embedding import Embeddingmodel
-from zhipuai import ZhipuAI
 import httpx
 
 # 加载环境变量
