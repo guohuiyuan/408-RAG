@@ -3,16 +3,65 @@ from langchain_community.document_loaders import (
     PyMuPDFLoader,
     UnstructuredMarkdownLoader,
 )
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter, TextSplitter
+from typing import List
+from langchain.docstore.document import Document
+
+
+class PaperTextSplitter(TextSplitter):
+    def __init__(self, chunk_size=500, chunk_overlap=50, **kwargs):
+        super().__init__(**kwargs)
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+
+    def split_text(self, text: str) -> List[str]:
+        # A simplified approach to split by sections often found in papers
+        # This regex looks for patterns that are likely to be section titles.
+        # e.g., "1. Introduction", "Abstract", "References"
+        sections = re.split(
+            r"\n(?=Abstract|Introduction|Conclusion|References|Discussion|Results|Methods|Background|\d+\.\s[A-Z])",
+            text,
+        )
+
+        # Further split sections if they are too large
+        chunks = []
+        for section in sections:
+            if len(section) > self.chunk_size:
+                # If a section is larger than chunk_size, use a simpler splitter for it
+                recursive_splitter = RecursiveCharacterTextSplitter(
+                    chunk_size=self.chunk_size, chunk_overlap=self.chunk_overlap
+                )
+                chunks.extend(recursive_splitter.split_text(section))
+            elif section.strip():
+                chunks.append(section)
+        return chunks
+
+    def split_documents(self, documents: List[Document]) -> List[Document]:
+        new_docs = []
+        for doc in documents:
+            chunks = self.split_text(doc.page_content)
+            for i, chunk in enumerate(chunks):
+                metadata = doc.metadata.copy()
+                metadata["section"] = i + 1
+                new_doc = Document(page_content=chunk, metadata=metadata)
+                new_docs.append(new_doc)
+        return new_docs
 
 
 class DocumentProcessor:
-    def __init__(self, chunk_size=500, chunk_overlap=50):
+    def __init__(self, chunk_size=500, chunk_overlap=50, strategy="default"):
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
-        self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=chunk_size, chunk_overlap=chunk_overlap
-        )
+
+        if strategy == "paper":
+            self.text_splitter = PaperTextSplitter(
+                chunk_size=chunk_size, chunk_overlap=chunk_overlap
+            )
+        else:
+            self.text_splitter = RecursiveCharacterTextSplitter(
+                chunk_size=chunk_size, chunk_overlap=chunk_overlap
+            )
+
         self.loaders = {
             "pdf": PyMuPDFLoader,
             "md": UnstructuredMarkdownLoader,

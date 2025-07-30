@@ -15,8 +15,8 @@ load_dotenv(find_dotenv())
 
 
 class RAGSystem:
-    def __init__(self, persist_dir):
-        self.document_processor = DocumentProcessor()
+    def __init__(self, persist_dir, strategy="default"):
+        self.document_processor = DocumentProcessor(strategy=strategy)
         self.vector_db = VectorDatabase(persist_directory=persist_dir)
         self.llm_client = LLMClient()
         self.persist_dir = persist_dir
@@ -77,7 +77,8 @@ if __name__ == "__main__":
     os.makedirs(os.path.dirname(persist_directory), exist_ok=True)
 
     # 初始化RAG系统
-    rag_system = RAGSystem(persist_dir=persist_directory)
+    # 可以选择不同的策略, e.g., strategy='paper'
+    rag_system = RAGSystem(persist_dir=persist_directory, strategy="paper")
 
     # 构建知识库
     logging.info("开始构建知识库...")
