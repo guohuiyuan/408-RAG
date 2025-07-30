@@ -122,8 +122,11 @@ if __name__ == "__main__":
     os.makedirs(os.path.dirname(persist_directory), exist_ok=True)
 
     # 初始化RAG系统
-    # 可以选择不同的策略, e.g., strategy='paper'
-    rag_system = RAGSystem(persist_dir=persist_directory, strategy="paper")
+    # strategy: "default", "paper", "chapter"
+    # "default": 默认切割方式，使用RecursiveCharacterTextSplitter
+    # "paper": 按论文结构切割，使用PaperTextSplitter
+    # "chapter": 按章节标题切割，使用ChapterTitleSplitter
+    rag_system = RAGSystem(persist_dir=persist_directory, strategy="chapter")
 
     # 构建知识库
     logging.info("开始构建知识库...")

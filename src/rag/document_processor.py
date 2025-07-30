@@ -48,6 +48,46 @@ class PaperTextSplitter(TextSplitter):
         return new_docs
 
 
+class ChapterTitleSplitter(TextSplitter):
+    def __init__(self, chunk_size=500, chunk_overlap=50, **kwargs):
+        super().__init__(**kwargs)
+        self.chunk_size = chunk_size
+        self.chunk_overlap = chunk_overlap
+
+    def split_text(self, text: str) -> List[str]:
+        # Regex to split by chapters (e.g., "第1章") and titles (e.g., "1.1", "1.1.1")
+        # This regex looks for lines starting with chapter/section markers.
+        sections = re.split(
+            r"\n(?=^第[一二三四五六七八九十\d]+章\s.*|^\d+(?:\.\d+)*\s.*)",
+            text,
+            flags=re.MULTILINE,
+        )
+
+        # Further split sections if they are too large
+        chunks = []
+        for section in sections:
+            if len(section) > self.chunk_size:
+                # If a section is larger than chunk_size, use a simpler splitter for it
+                recursive_splitter = RecursiveCharacterTextSplitter(
+                    chunk_size=self.chunk_size, chunk_overlap=self.chunk_overlap
+                )
+                chunks.extend(recursive_splitter.split_text(section))
+            elif section.strip():
+                chunks.append(section)
+        return chunks
+
+    def split_documents(self, documents: List[Document]) -> List[Document]:
+        new_docs = []
+        for doc in documents:
+            chunks = self.split_text(doc.page_content)
+            for i, chunk in enumerate(chunks):
+                metadata = doc.metadata.copy()
+                metadata["section"] = i + 1
+                new_doc = Document(page_content=chunk, metadata=metadata)
+                new_docs.append(new_doc)
+        return new_docs
+
+
 class DocumentProcessor:
     def __init__(self, chunk_size=500, chunk_overlap=50, strategy="default"):
         self.chunk_size = chunk_size
@@ -55,6 +95,10 @@ class DocumentProcessor:
 
         if strategy == "paper":
             self.text_splitter = PaperTextSplitter(
+                chunk_size=chunk_size, chunk_overlap=chunk_overlap
+            )
+        elif strategy == "chapter":
+            self.text_splitter = ChapterTitleSplitter(
                 chunk_size=chunk_size, chunk_overlap=chunk_overlap
             )
         else:
