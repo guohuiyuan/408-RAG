@@ -16,7 +16,8 @@ load_dotenv(find_dotenv())
 
 class RAGSystem:
     def __init__(self, persist_dir, strategy="default"):
-        self.document_processor = DocumentProcessor(strategy=strategy)
+        self.strategy = strategy
+        self.document_processor = DocumentProcessor(strategy=self.strategy)
         self.vector_db = VectorDatabase(persist_directory=persist_dir)
         self.llm_client = LLMClient()
         self.persist_dir = persist_dir
@@ -35,6 +36,50 @@ class RAGSystem:
 
         # 处理文档
         processed_docs = self.document_processor.process_documents(file_paths)
+
+        # 保存处理后的文档以供检查
+        output_dir = os.path.join(
+            os.path.dirname(
+                os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            ),
+            "output",
+            self.strategy,
+        )
+
+        # Clear existing files in the directory
+        if os.path.exists(output_dir):
+            for root, dirs, files in os.walk(output_dir, topdown=False):
+                for name in files:
+                    os.remove(os.path.join(root, name))
+                for name in dirs:
+                    os.rmdir(os.path.join(root, name))
+
+        os.makedirs(output_dir, exist_ok=True)
+
+        for doc in processed_docs:
+            source_filename = os.path.basename(
+                doc.metadata.get("source", "unknown_file")
+            )
+            filename_base, _ = os.path.splitext(source_filename)
+
+            file_output_dir = os.path.join(output_dir, filename_base)
+            os.makedirs(file_output_dir, exist_ok=True)
+
+            # Find the next available chunk number
+            chunk_num = 1
+            while os.path.exists(
+                os.path.join(file_output_dir, f"chunk_{chunk_num}.txt")
+            ):
+                chunk_num += 1
+
+            with open(
+                os.path.join(file_output_dir, f"chunk_{chunk_num}.txt"),
+                "w",
+                encoding="utf-8",
+            ) as f:
+                f.write(doc.page_content)
+
+        logging.info(f"切割后的文档已保存到 {output_dir}")
 
         # 构建向量数据库
         self.vector_db.create_from_documents(processed_docs)
