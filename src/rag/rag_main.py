@@ -11,7 +11,7 @@ project_dir = os.path.dirname(os.path.abspath(__file__)).split("src")[0]
 
 class RAGSystem:
     def __init__(
-        self, persist_dir=os.path.join(project_dir, "data_base/vector_db/chroma")
+        self, persist_dir=os.path.join(project_dir, "data_base/vector_db/408.db")
     ):
         self.document_processor = DocumentProcessor()
         self.vector_db = VectorDatabase(persist_directory=persist_dir)
