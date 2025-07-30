@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-text-splitters
+pymilvus
+openai
+python-dotenv
+tqdm
+PyMuPDF
+unstructured
