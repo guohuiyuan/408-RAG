@@ -4,6 +4,11 @@
 
 Milvus不能在windows系统上使用。
 
+## 使用教程
+```
+python src/rag/rag_main.py
+```
+
 ## 数据集
 
 ### 题目
