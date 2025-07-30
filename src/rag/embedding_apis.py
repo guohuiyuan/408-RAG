@@ -1,27 +1,27 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv, find_dotenv
-import httpx
 
 # 加载环境变量
 _ = load_dotenv(find_dotenv())
 
 
 class OpenAIEmbedding:
-    def __init__(self, model="BAAI/bge-m3"):
+    def __init__(self, model="BAAI/bge-m3", batch_size=64):
         self.model = model
+        self.batch_size = batch_size
         self.client = OpenAI(
-            base_url=os.environ["OPENAI_BASE_URL"],
-            api_key=os.environ["OPENAI_API_KEY"],
-            http_client=httpx.Client(verify=False),
+            base_url=os.environ.get("OPENAI_BASE_URL"),
+            api_key=os.environ.get("OPENAI_API_KEY"),
         )
 
-    # 新增：批量生成文档向量的方法（Chroma必需）
     def embed_documents(self, texts):
+        """批量生成文档向量"""
         result = []
-        for i in range(0, len(texts), 64):
+        for i in range(0, len(texts), self.batch_size):
+            batch_texts = texts[i : i + self.batch_size]
             embeddings = self.client.embeddings.create(
-                input=texts[i : i + 64], model=self.model
+                input=batch_texts, model=self.model
             )
             result.extend([data.embedding for data in embeddings.data])
         return result

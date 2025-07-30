@@ -1,6 +1,8 @@
 import re
-from langchain_community.document_loaders import PyMuPDFLoader
-from langchain_community.document_loaders import UnstructuredMarkdownLoader
+from langchain_community.document_loaders import (
+    PyMuPDFLoader,
+    UnstructuredMarkdownLoader,
+)
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 
@@ -11,33 +13,28 @@ class DocumentProcessor:
         self.text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=chunk_size, chunk_overlap=chunk_overlap
         )
+        self.loaders = {
+            "pdf": PyMuPDFLoader,
+            "md": UnstructuredMarkdownLoader,
+        }
 
     def load_documents(self, file_paths):
         """加载多种格式的文档"""
         documents = []
         for file_path in file_paths:
-            file_type = file_path.split(".")[-1]
-            if file_type == "pdf":
-                loader = PyMuPDFLoader(file_path)
-            elif file_type == "md":
-                loader = UnstructuredMarkdownLoader(file_path)
-            else:
-                continue
-            documents.extend(loader.load())
+            file_extension = file_path.split(".")[-1]
+            loader_class = self.loaders.get(file_extension)
+            if loader_class:
+                loader = loader_class(file_path)
+                documents.extend(loader.load())
         return documents
 
     def clean_text(self, text):
         """清洗文本数据"""
-        # 处理PDF中的多余换行
-        pattern = re.compile(r"[^\u4e00-\u9fff](\n)[^\u4e00-\u9fff]", re.DOTALL)
-        text = re.sub(pattern, lambda match: match.group(0).replace("\n", ""), text)
-
-        # 去除特殊符号和多余空格
-        text = text.replace("•", "").replace(" ", "")
-
-        # 处理Markdown中的多余换行
-        text = text.replace("\n\n", "\n")
-
+        # 移除中日韩字符之间的换行符
+        text = re.sub(r"([^\u4e00-\u9fa5\n])\n([^\u4e00-\u9fa5\n])", r"\1 \2", text)
+        # 移除特殊符号和多余的空格
+        text = text.replace("•", "").replace(" ", "").replace("\n\n", "\n")
         return text
 
     def process_documents(self, file_paths):
