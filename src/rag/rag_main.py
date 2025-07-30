@@ -3,6 +3,7 @@ import logging
 from dotenv import load_dotenv, find_dotenv
 from document_processor import DocumentProcessor
 from vector_db import VectorDatabase
+from llm_apis import LLMClient
 
 # 配置日志记录
 logging.basicConfig(
@@ -17,6 +18,7 @@ class RAGSystem:
     def __init__(self, persist_dir):
         self.document_processor = DocumentProcessor()
         self.vector_db = VectorDatabase(persist_directory=persist_dir)
+        self.llm_client = LLMClient()
         self.persist_dir = persist_dir
 
     def build_knowledge_base(self, data_dir):
@@ -38,21 +40,24 @@ class RAGSystem:
         )
 
     def query(self, question, k=3):
-        """查询知识库"""
+        """查询知识库并生成答案"""
         if not os.path.exists(self.persist_dir):
             raise ValueError("知识库不存在，请先构建知识库")
 
         if not self.vector_db.vectordb:
             self.vector_db.load_existing(self.persist_dir)
 
-        results = self.vector_db.similarity_search(question, k=k)
+        # 检索相关文档
+        retrieved_docs = self.vector_db.similarity_search(question, k=k)
+        context = [doc.page_content for doc in retrieved_docs]
 
-        logging.info(f"找到 {len(results)} 个相关文档块:")
-        for i, doc in enumerate(results):
-            logging.info(f"\n文档块 {i+1}:")
-            logging.info(doc.page_content[:200] + "...")
+        logging.info(f"找到 {len(retrieved_docs)} 个相关文档块.")
 
-        return results
+        # 生成答案
+        answer = self.llm_client.generate_answer(question, context)
+        logging.info(f"生成的答案: {answer}")
+
+        return answer
 
 
 if __name__ == "__main__":
@@ -78,5 +83,6 @@ if __name__ == "__main__":
 
     # 执行查询
     logging.info("执行示例查询...")
-    rag_system.query("什么是操作系统？")
+    answer = rag_system.query("什么是操作系统？")
+    logging.info(f"最终答案: {answer}")
     logging.info("查询完成。")
