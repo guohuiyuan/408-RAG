@@ -23,6 +23,9 @@ class RAGSystem:
 
     def build_knowledge_base(self, data_dir):
         """构建知识库"""
+        if len(os.listdir(os.path.dirname(self.persist_dir))) > 0:
+            logging.info("知识库已存在，跳过构建。")
+            return
         # 获取所有文档路径
         file_paths = [
             os.path.join(root, file)

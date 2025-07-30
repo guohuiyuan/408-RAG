@@ -21,6 +21,7 @@ class LLMClient:
         """
         context_str = "\n\n".join(context)
         prompt = f"请根据以下提供的知识回答问题：\n\n{context_str}\n\n问题：{question}"
+        print(f"LLM Input: {prompt}")
 
         response = self.client.chat.completions.create(
             model=self.model_name,
